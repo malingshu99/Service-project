@@ -1,0 +1,10 @@
+.header{
+    position:relative;
+
+}
+/* 37.5默认 */
+.header .header-img{
+    width: 100%;
+    height:4.6666666667rem;
+   
+}

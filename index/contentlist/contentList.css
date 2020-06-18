@@ -1,0 +1,114 @@
+.list-content{
+    overflow: hidden;
+    padding-bottom: 1.333rem;
+}
+.list-content .list-title{
+    text-align:center;
+    font-size:0.426rem;
+    margin-top:0.373rem;
+    margin-bottom:0.1333rem;
+
+}
+.list-content .title-line{
+    display:inline-block;
+    border-bottom: .0266666667rem solid #949494;
+    height: .0266666667rem;
+    width: 0.8rem;
+    margin-left:0.106rem;
+    margin-right:0.106rem;
+    margin-bottom: 0.106rem;
+}
+.r-item-content{
+    display:flex;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    margin-left: .2666666667rem;
+    margin-right: .2666666667rem;
+    color:#656565;
+    position:relative;
+}
+.r-item-content .item-img{
+    width:2.293rem;
+    height:1.733rem;
+    border: .0266666667rem solid #e4e4e4;
+    
+
+}
+.r-item-content .item-info-content{
+    flex:1;/* 占据除左侧部分所有的宽度 */
+    margin-left: .1866666667rem;
+    overflow: hidden;
+    
+
+}
+.r-item-content .brand{
+    position:absolute;
+    left:0.026rem;
+    top:.426rem;
+    font-size:.32rem;
+    padding:.0533rem;
+    color:#fff;
+}
+
+.r-item-content .brand-pin{
+    background-color:#ffa627;
+}
+.r-item-content .brand-xin{
+    background-color:#21c56c;
+}
+.r-item-content .item-title{
+    margin-top:0.08rem;
+    font-size:.426rem;
+    font-weight: 700;
+    color:#333;
+}
+.r-item-content .item-desc{
+    margin-top: .3466666667rem;
+    font-size: .32rem;
+   
+}
+.r-item-content .item-count{
+    float: left;
+    margin-left: .1333333333rem;
+}
+.r-item-content .item-time{
+    float: right;
+    
+}
+.r-item-content .item-score{
+    float: left;
+    
+}
+.r-item-content .item-distance{
+    float: right;
+    
+}
+.r-item-content .item-price{
+   margin-top:.266rem;
+   font-size: .32rem;
+   height: .64rem;
+    
+}
+.r-item-content .other-info{
+  color:#898989;
+  margin-top:.186rem;
+  font-size:.32rem;
+  display:flex;
+    
+}
+.r-item-content .other-tag{
+  width:.373rem;
+  height:.373rem;
+    
+}
+.other-content{
+    margin-left:.08rem;
+    height:.373rem;
+    width:6.133rem;
+    margin-top: .0266666667rem;
+}
+.one-line{
+    overflow:hidden;
+    text-overflow:ellipsis;/* 加省略号 */
+    white-space: nowrap; /* 不换行*/
+}
