@@ -112,3 +112,10 @@
     text-overflow:ellipsis;/* 加省略号 */
     white-space: nowrap; /* 不换行*/
 }
+.loading{
+    padding-bottom: .2666666667rem;
+    padding-top: .2666666667rem;
+    font-size: .426rem;
+    text-align: center;
+    color:#ccc;
+}

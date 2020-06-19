@@ -15,5 +15,39 @@
 
 首页样式:
 
-![Alt](img/main.png)
+![首页](img/main.png)
+
+## 滚动加载页面
+
+![滚动原理](img/roll.png)
+
+
+```
+ function addEvent(){
+        window.addEventListener('scroll',function(){
+            //视窗的高度
+            var clientHeight = document.documentElement.clientHeight;
+            //可滚动的高度
+            var scrollHeight = document.body.scrollHeight;
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+            var proDis = 30;
+            if((scrollTop+clientHeight)>=(scrollHeight-proDis)){
+                // 最多滚动加载三页
+                if(page<3){
+                    //在发送ajax请求时避免触发多次滚动加载
+                    if(isLoading){
+                        return;
+                    }
+                    getList();
+                }else{
+                    $('.loading').text('加载完成');
+                }
+                
+            }
+        })
+    }
+```
+
+
 
