@@ -1,0 +1,94 @@
+.order-item{
+    border-top: .3466666667rem solid #efefef;
+}
+.order-item .order-item-inner{
+    display:flex;
+    padding-bottom: 0.48rem;
+    border-bottom: .0266666667rem solid #e0e0e0;
+}
+.order-item .item-img{
+    width: 1.066rem;
+    height: 1.066rem;
+    margin-top: .213rem;
+    margin-left: .426rem;
+    display: block;
+    border-radius: 50%;
+}
+.order-item .item-right{
+    flex: 1;
+    margin-left: .4rem;
+    font-size: .373rem;
+}
+.order-item .item-top{
+    height: 1.467rem;
+    padding-top: .533rem;
+    display: flex;
+    align-items: center;
+    border-bottom: .0266666667rem solid #e0e0e0;
+}
+.order-item .order-name{
+    font-size: .426rem;
+    width: 4.8rem;
+    height: .426rem;
+    font-weight: 600;
+}
+.order-item .arrow{
+    width: .2133333333rem;
+    height: .2133333333rem;
+    border: .0266666667rem solid #999;
+    border-width: .0266666667rem .0266666667rem 0 0;
+    transform: totate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.order-item .order-state{
+    font-size: .373rem;
+    margin-left: 1.066rem;
+    color: #999;
+}
+.order-item .product-item{
+    font-size: 0.373rem;
+    color:#666;
+    margin-top:.32rem;
+}
+.order-item .p-count{
+    float: right;
+    margin-right: .4rem;
+    font-size: .32rem;
+}
+.order-item .p-total-count{
+    float: right;
+    margin-right:.4rem;
+    font-size: .32rem;
+}
+.order-item .total-price{
+    font-size: .373rem;
+    color: #151515;
+    margin-left: .053rem;
+    font-weight: 700;
+    letter-spacing: .0266666667rem;
+}
+.order-item .evaluation{
+    padding-top: .266rem;
+    padding-bottom: .266rem;
+}
+.order-item .evaluation-btn{
+    float: right;
+    width: 2.666rem;
+    height: .853rem;
+    color: #6b450a;
+    background-color: #ffd161;
+    font-size: .373rem;
+    line-height: .853rem;
+    text-align:center;
+    margin-right: .2666666667rem;
+}
+.loading{
+    padding-bottom: .2666666667rem;
+    padding-top: .2666666667rem;
+    font-size: .426rem;
+    text-align: center;
+    color:#ccc;
+}
+.wrap{
+    padding-bottom: 1.666rem;
+}   

@@ -1,25 +1,24 @@
 (function () {
-    var itemTmpl = '<a class="$key btn-item" href="../$key/$key.html">'+
-                        '<div class="tab-icon"></div>'+
-                        '<div class="btn-name">$text</div>'+
+    var itemTmpl = '<a class="$key tab-item" href="../$key/$key.html">'+
+                        '$text'+
                     '</a>';
     function init(){
         var items = [{
-            key:'index',
-            text:'首页'
+            key:'menu',
+            text:'点菜'
         },{
-            key:'order',
-            text:'订单'
+            key:'comment',
+            text:'评价'
         },{
-            key:'my',
-            text:'我的'
+            key:'restanurant',
+            text:'商家'
         }];
         var str='';
         items.forEach(function(item){
             str+=itemTmpl.replace(/\$key/g,item.key)
                          .replace('$text',item.text);
         });
-        $('.bottom-bar').append($(str));
+        $('.tab-bar').append($(str));
 
         //找到当前页面的URL来确定key值
         var arr = window.location.pathname.split('/');

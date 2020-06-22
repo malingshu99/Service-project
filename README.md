@@ -15,12 +15,17 @@
 
 首页样式:
 
-![首页](img/main.png)
+<div align=center>
+    <img src="http://m.qpic.cn/psc?/V10ibBzU4Ickka/lwLYosea*1Tx8aEGf3rTEOGxr.VtZPUP5RT1M6Hn*OR5z3ApTcOTRL46RxehxP1Jgmo7nYVpHp1wN9R9.3EMkC6rg4IVhiTdCtlqTcqAKpU!/b&bo=QAEzAkABMwIDKQw!&rf=viewer_4" width="300"/>
+</div>
+
+
 
 ## 滚动加载页面
 
-![滚动原理](img/roll.png)
-
+<div align=center>
+    <img src="http://a1.qpic.cn/psc?/V10ibBzU4Ickka/QBzlzF8iG*2NtSQ2AaEAUn5.4WuQbKRMt1mi*1NKESNFMJ8FgxJfMjt60Z7wsmltXWV47Wc4hfRy6t8o1zywAw!!/b&ek=1&kp=1&pt=0&bo=3ATVAtwE1QIDGTw!&tl=1&vuin=1227813434&tm=1592535600&sce=60-2-2&rf=viewer_4" width="800"/>
+</div>
 
 ```
  function addEvent(){

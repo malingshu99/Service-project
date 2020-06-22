@@ -1,0 +1,47 @@
+.menu-inner{
+    position: absolute;
+    right:0;
+    left: 0;
+    bottom:0;
+    top:2.933rem;
+    display: flex;
+    overflow:hidden;
+}
+.menu-inner .left-bar{
+    width: 2.266rem;
+    background-color: #efefef;
+    overflow: auto;
+    height: 100%;
+    /* 让滚动效果更丝滑 */
+    -webkit-overflow-scrolling: touch;
+}
+.menu-inner .left-bar-inner{
+    padding-bottom: 2.266rem;
+}
+
+.menu-inner .left-item{
+   font-size: 0.373rem;
+   color:#656565;
+   text-align:center;
+   justify-content: center;
+   border-bottom: .0266666667rem solid #bfbfbf;
+   display: flex;
+   height: 1.6rem;
+
+
+}
+.menu-inner .left-item.active{
+    background-color:#fff;
+}
+.menu-inner .left-text{
+    text-align:center;
+    align-self: center;
+}
+.menu-inner .item-icon{
+    width: .5333333333rem;
+    height: .5333333333rem;
+    display: inline-block;
+    margin-left: .16rem;
+    vertical-align: -.1066666667rem;
+}
+
